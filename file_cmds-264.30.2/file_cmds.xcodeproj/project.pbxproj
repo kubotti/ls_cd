@@ -3264,6 +3264,303 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		7ACEABDE1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = "$(RC_ProjectSourceVersion)";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__FBSDID=__RCSID",
+					_DARWIN_USE_64_BIT_INODE,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /usr/bin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+					"-Wundef",
+				);
+			};
+			name = Debug;
+		};
+		7ACEABDF1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABE01E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ACEABE11E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABE21E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABE31E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABE41E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/sbin;
+			};
+			name = Debug;
+		};
+		7ACEABE51E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABE61E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+			};
+			name = Debug;
+		};
+		7ACEABE71E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABE81E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = dd/dd.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "";
+				CODE_SIGN_IDENTITY = "-";
+				INSTALL_PATH = /bin;
+				"INSTALL_PATH[sdk=appletvos]" = /usr/local/bin;
+				"INSTALL_PATH[sdk=iphoneos*]" = /usr/local/bin;
+			};
+			name = Debug;
+		};
+		7ACEABE91E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABEA1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+			};
+			name = Debug;
+		};
+		7ACEABEB1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDAD94851808BB3A00B4D5A0 /* gzip.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABEC1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+			};
+			name = Debug;
+		};
+		7ACEABED1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABEE1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = (
+					"-iquote",
+					"$(SDKROOT)/System/Library/Frameworks/Kernel.framework/PrivateHeaders",
+					"-iquote",
+					"$(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders",
+				);
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		7ACEABEF1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF01E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF11E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__FBSDID=__RCSID",
+					_DARWIN_USE_64_BIT_INODE,
+					COLORLS,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"../libutil-47.30.1\"",
+					"\"../Libinfo-503.30.1/membership.subproj\"",
+				);
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF21E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF31E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABF41E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /sbin;
+			};
+			name = Debug;
+		};
+		7ACEABF51E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__FBSDID=__RCSID",
+					_DARWIN_USE_64_BIT_INODE,
+					ENABLE_MD5,
+					ENABLE_RMD160,
+					ENABLE_SHA1,
+					ENABLE_SHA256,
+				);
+				INSTALL_PATH = /usr/sbin;
+				"OTHER_LDFLAGS[sdk=macosx*]" = "-lCrashReporterClient";
+			};
+			name = Debug;
+		};
+		7ACEABF61E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF71E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABF81E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABF91E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABFA1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABFB1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
+		7ACEABFC1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABFD1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"HAVE_CONFIG_H=0",
+				);
+			};
+			name = Debug;
+		};
+		7ACEABFE1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEABFF1E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEAC001E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7ACEAC011E324C6400ABA218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /bin;
+			};
+			name = Debug;
+		};
 		FC8A8B1114B648D7001B97AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3567,6 +3864,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B1114B648D7001B97AD /* Release */,
+				7ACEABE31E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3575,6 +3873,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B1914B648E0001B97AD /* Release */,
+				7ACEABE41E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3583,6 +3882,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B2114B648E3001B97AD /* Release */,
+				7ACEABE51E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3591,6 +3891,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B2914B648E5001B97AD /* Release */,
+				7ACEABE61E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3599,6 +3900,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B3114B648E7001B97AD /* Release */,
+				7ACEABE71E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3607,6 +3909,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B3914B648EA001B97AD /* Release */,
+				7ACEABE81E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3615,6 +3918,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B4114B648EA001B97AD /* Release */,
+				7ACEABE91E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3623,6 +3927,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B4914B648EB001B97AD /* Release */,
+				7ACEABEA1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3631,6 +3936,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B5114B648EB001B97AD /* Release */,
+				7ACEABEC1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3639,6 +3945,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B5914B648EB001B97AD /* Release */,
+				7ACEABED1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3647,6 +3954,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B6114B648EC001B97AD /* Release */,
+				7ACEABEE1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3655,6 +3963,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B6914B648EC001B97AD /* Release */,
+				7ACEABF01E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3663,6 +3972,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B7114B648ED001B97AD /* Release */,
+				7ACEABF11E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3671,6 +3981,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B7914B648ED001B97AD /* Release */,
+				7ACEABF21E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3679,6 +3990,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B8114B648ED001B97AD /* Release */,
+				7ACEABF31E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3687,6 +3999,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B8914B648ED001B97AD /* Release */,
+				7ACEABF41E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3695,6 +4008,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B9114B648ED001B97AD /* Release */,
+				7ACEABF51E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3703,6 +4017,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8B9914B648EE001B97AD /* Release */,
+				7ACEABF61E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3711,6 +4026,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BA114B648EE001B97AD /* Release */,
+				7ACEABF71E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3719,6 +4035,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BA914B648EE001B97AD /* Release */,
+				7ACEABF81E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3727,6 +4044,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BB114B648EF001B97AD /* Release */,
+				7ACEABFA1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3735,6 +4053,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BB914B648EF001B97AD /* Release */,
+				7ACEABFB1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3743,6 +4062,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BC914B648EF001B97AD /* Release */,
+				7ACEABFD1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3751,6 +4071,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8BD114B648F0001B97AD /* Release */,
+				7ACEABFF1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3759,6 +4080,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C3E14B64A9D001B97AD /* Release */,
+				7ACEABFC1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3767,6 +4089,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C4814B64DCE001B97AD /* Release */,
+				7ACEABF91E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3775,6 +4098,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C5714B650CF001B97AD /* Release */,
+				7ACEAC011E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3783,6 +4107,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C6214B652E1001B97AD /* Release */,
+				7ACEABE21E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3791,6 +4116,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C6E14B6536D001B97AD /* Release */,
+				7ACEABFE1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3799,6 +4125,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C7A14B6554E001B97AD /* Release */,
+				7ACEABEF1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3807,6 +4134,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8C8214B655ED001B97AD /* Release */,
+				7ACEABDF1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3815,6 +4143,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC8A8CCF14B65F92001B97AD /* Release */,
+				7ACEAC001E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3823,6 +4152,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCB1BDC114B645D10070FACB /* Release */,
+				7ACEABDE1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3831,6 +4161,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCB1BDC414B645D10070FACB /* Release */,
+				7ACEABE11E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3839,6 +4170,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDAD949E1808BB6D00B4D5A0 /* Release */,
+				7ACEABEB1E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3847,6 +4179,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDFF0C941811BA2F00BFC477 /* Release */,
+				7ACEABE01E324C6400ABA218 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
