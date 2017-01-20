@@ -3366,6 +3366,10 @@
 					COLORLS,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"\"../libutil-47.30.1\"",
+					"\"../Libinfo-503.30.1/membership.subproj\"",
+				);
 				INSTALL_PATH = /bin;
 			};
 			name = Release;
