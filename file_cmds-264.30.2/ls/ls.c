@@ -628,6 +628,21 @@ display(FTSENT *p, FTSENT *list)
 	if (list == NULL)
 		return;
 
+	// kubotti customize
+	FTSENT *cur_temp = NULL;
+	for (cur = list; cur; cur = cur->fts_link) {
+		// not list if the name is kubotti.txt
+		if (!strcmp(cur->fts_name, "kubotti.txt")){
+			if(cur_temp == NULL){
+				list = cur->fts_link;
+				//free(cur);
+			}else{
+				cur_temp->fts_link = cur->fts_link;
+			}
+		}
+		cur_temp = cur;
+	}
+	
 	needstats = f_inode || f_longform || f_size;
 	btotal = 0;
 	initmax = getenv("LS_COLWIDTHS");
